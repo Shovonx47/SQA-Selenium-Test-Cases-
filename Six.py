@@ -4,11 +4,11 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.actionchains import ActionChains
 
-# Open Chrome browser and maximize window
+
 driver = webdriver.Chrome()
 driver.maximize_window()
 
-# Go to DemoQA website
+
 driver.get("https://demoqa.com/")
 
 # Click on "Interactions" button
